@@ -17,9 +17,9 @@ const CallToAction = ({ }) => {
         <div style={{  paddingTop: '50px', paddingBottom: '15px', background: 'var(--gray)', width: '100%' }}>
             <Container maxWidth="xl" sx={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>              
                 <Grid container sx={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-                    <Grid item xs={12} md={8}>
+                    <Grid item xs={12} md={8} sx={{marginBottom: '20px'}}>
                         <Typography variant="h4" gutterBottom fontWeight={800} sx={{fontFamily: 'Poppins, sans-serif', textAlign: 'start', marginBottom: '25px'}}>
-                        Estas a solo un clic de<br/>obtener el crédito<br/>que mereces
+                        Estás a solo un clic de<br/>obtener el crédito<br/>que mereces
                         </Typography>
                         <List sx={{marginLeft: '20px'}}>
                             <ListItem>
@@ -53,14 +53,25 @@ const CallToAction = ({ }) => {
                                 </ListItemText>
                             </ListItem>
                         </List>
+                    </Grid>
+                    <Grid item xs={12} md={4} sx={{marginBottom: '0'}}>
+                        <Box display="flex" justifyContent="center" alignItems="start" height="100%">
+                            <Box width="80%">
+                                <img src={image1} style={{ width: '100%', height: 'auto', borderRadius: '25px' }} alt="Hero" />
+                            </Box>
+                        </Box>
+                    </Grid>
+                    <Grid item xs={12} md={12}>
                         <div style={{ display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems: 'center', textAlign: 'center' }}>
                             <Button 
                                 variant="contained" 
                                 sx={{ 
+                                    position: 'relative',
+                                    top: '-50px',
                                     margin: '0 auto',
                                     marginTop: '20px',
                                     marginBottom: '20px',
-                                    width: '25%',
+                                    width: '20%',
                                     borderRadius: '20px',
                                     background: 'var(--secondary)',
                                     paddingLeft: '30px',    
@@ -81,13 +92,6 @@ const CallToAction = ({ }) => {
                                     </Typography>
                             </Button>
                         </div>
-                    </Grid>
-                    <Grid item xs={12} md={4}>
-                        <Box display="flex" justifyContent="center" alignItems="start" height="100%">
-                            <Box width="80%">
-                                <img src={image1} style={{ width: '100%', height: 'auto', borderRadius: '25px' }} alt="Hero" />
-                            </Box>
-                        </Box>
                     </Grid>
                 </Grid>
 

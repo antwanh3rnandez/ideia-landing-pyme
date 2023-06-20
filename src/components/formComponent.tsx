@@ -62,10 +62,10 @@ const Form = ({ }) => {
                                 textAlign: 'start', 
                                 my: '25px'}}
                             >
-                        Consulturía de empresas
+                        Consultoría de empresas
                         </Typography>
                         <Typography variant="h5" gutterBottom fontWeight={500} sx={{fontFamily: 'Poppins, sans-serif', textAlign: 'start', marginBottom: '25px'}}>
-                        Si lo que necesitas es mejorar el estatus de tu empresa y su salud financiera para obtener mayores oportunidades de crédito.
+                        Si lo que necesitas es mejorar las condiciones financieras de tu empresa para obtener mayores oportunidades de crédito.
                         </Typography>
                         <Typography variant="h5" gutterBottom fontWeight={500} sx={{fontFamily: 'Poppins, sans-serif', textAlign: 'start', marginBottom: '25px'}}>
                         ¡Déjanos tu información!
@@ -138,6 +138,36 @@ const Form = ({ }) => {
                             fullWidth
                             label="Dirección de tu empresa"
                             name="companyAddress"
+                            sx={{
+                                backgroundColor: 'white',
+                                borderRadius: '25px',
+                                '& .MuiOutlinedInput-root': {
+                                borderRadius: '25px',
+                                },
+                            }}
+                        />
+                    </Grid>
+                    <Grid item xs={12}>
+                        <TextField
+                            required
+                            fullWidth
+                            label="Correo electrónico"
+                            name="companyEmail"
+                            sx={{
+                                backgroundColor: 'white',
+                                borderRadius: '25px',
+                                '& .MuiOutlinedInput-root': {
+                                borderRadius: '25px',
+                                },
+                            }}
+                        />
+                    </Grid>
+                    <Grid item xs={12}>
+                        <TextField
+                            required
+                            fullWidth
+                            label="Teléfono"
+                            name="companyPhone"
                             sx={{
                                 backgroundColor: 'white',
                                 borderRadius: '25px',

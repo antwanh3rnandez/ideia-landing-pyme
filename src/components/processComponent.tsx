@@ -22,11 +22,11 @@ const Process = ({ }) => {
                         <Typography variant="h3" gutterBottom fontWeight={800} sx={{fontFamily: 'Poppins, sans-serif', marginBottom: '25px', color: 'var(--secondary)'}}>
                         Proceso de solicitud muy sencillo
                         </Typography>
-                        <Typography variant='h5' gutterBottom fontWeight={500} sx={{fontFamily: 'Poppins, sans-serif', marginBottom: '25px'}}>
+                        {/* <Typography variant='h5' gutterBottom fontWeight={500} sx={{fontFamily: 'Poppins, sans-serif', marginBottom: '25px'}}>
                         Al momento de solicitar un crédito PyME necesitarás contar con tu<br/><b>Registro Federal de Contribuyentes (RFC)</b> y tu <b>contraseña SAT (CIEC)</b>.
-                        </Typography>
-                        <Typography variant='h5' gutterBottom fontWeight={500} sx={{fontFamily: 'Poppins, sans-serif', marginBottom: '25px'}}>
-                        Además, será necesario tener los siguientes documentos:
+                        </Typography> */}
+                        <Typography variant='h5' gutterBottom fontWeight={500} sx={{fontFamily: 'Poppins, sans-serif', marginBottom: '35px'}}>
+                        Será necesario tener los siguientes documentos:
                         </Typography>
                     </Grid>
                 </Grid>

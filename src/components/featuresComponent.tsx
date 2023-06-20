@@ -75,12 +75,12 @@ const Features = ({ }) => {
                                 </Typography>
                                 <Typography 
                                     fontSize={16} 
-                                    fontWeight={600} 
+                                    fontWeight={500} 
                                     sx={{
                                         fontFamily: 'Poppins, sans-serif', 
                                         textAlign: 'center'
                                     }}>
-                                    Con nuestro CRM la solicitud de tu credito PyME es 100% en línea y en tiempo real.
+                                    Con nuestro CRM la solicitud de tu crédito PyME es 100% en línea y en tiempo real.
                                 </Typography>
                             </Card>
                         </Grid>
@@ -109,7 +109,7 @@ const Features = ({ }) => {
                                 </Typography>
                                 <Typography 
                                     fontSize={16} 
-                                    fontWeight={600} 
+                                    fontWeight={500} 
                                     sx={{
                                         fontFamily: 'Poppins, sans-serif', 
                                         textAlign: 'center'
@@ -143,7 +143,7 @@ const Features = ({ }) => {
                                 </Typography>
                                 <Typography 
                                     fontSize={16} 
-                                    fontWeight={600} 
+                                    fontWeight={500} 
                                     sx={{
                                         fontFamily: 'Poppins, sans-serif', 
                                         textAlign: 'center'
