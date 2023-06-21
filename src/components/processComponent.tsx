@@ -1,7 +1,5 @@
 import Container  from '@mui/material/Container';
 import Typography from "@mui/material/Typography";
-import Button from "@mui/material/Button";
-import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import Card from "@mui/material/Card";
 
@@ -9,8 +7,6 @@ import { IconCertificate } from '@tabler/icons-react';
 import { IconId } from '@tabler/icons-react';
 import { IconFileInvoice } from '@tabler/icons-react';
 import { IconCertificate2 } from '@tabler/icons-react';
-
-import image1 from '../assets/image1.jpg';
 
 const Process = ({ }) => {
 
